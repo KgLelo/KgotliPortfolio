@@ -1,75 +1,285 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Projects | Kgotlelelo Digomo</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Explore software development projects by Kgotlelelo Digomo, featuring full-stack web development, database management, application development and modern web technologies.">
+
+    <meta name="author" content="Kgotlelelo Digomo">
+    <meta name="theme-color" content="#0f172a">
+
+    <title>Projects | Kgotlelelo Digomo - Software Developer</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-  <nav class="navbar">
-    <h2 class="logo">KDigomo.dev</h2>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="skills.html">Skills</a></li>
-      <li><a href="experience.html">Experience</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+    <nav class="navbar">
+        <a href="index.html" class="logo">KDigomo.dev</a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 </header>
 
-<section>
-  <h1>My Projects</h1>
-  <p class="section-intro">A selection of the systems and experiences I've built while developing practical, end-to-end software solutions.</p>
+<main>
+    <section class="projects-section">
 
-  <div class="projects-grid">
-    <div class="project-card card">
-      <img src="images/WeConnect.png" alt="WeConnect Platform preview">
-      <div class="project-content">
-        <h2>WeConnect Platform</h2>
-        <p class="project-meta">PHP · SQL Server · UI/UX · Data Management</p>
-        <p>Designed and built a complete communication platform with secure database structures, seamless user interaction, and responsive system dashboards for better team connectivity.</p>
-        <ul class="project-features">
-          <li>Full-stack development with PHP backend</li>
-          <li>Database queries, stored procedures, and data reporting</li>
-          <li>User authentication and role-based access control</li>
-        </ul>
-      </div>
-    </div>
+        <div class="section-heading">
+            <p class="eyebrow">MY WORK &amp; EXPERIENCE</p>
 
-    <div class="project-card card">
-      <img src="images/Portfolio.png" alt="Portfolio Website preview">
-      <div class="project-content">
-        <h2>Portfolio Website</h2>
-        <p class="project-meta">HTML · CSS · JavaScript · GitHub Pages</p>
-        <p>Created a portfolio website that highlights my experience, skills, and projects. The site is optimized for modern presentation and easy navigation.</p>
-        <ul class="project-features">
-          <li>Responsive design with modern UI details</li>
-          <li>Clear content layout for recruiters and clients</li>
-          <li>Published and hosted on GitHub Pages</li>
-        </ul>
-      </div>
-    </div>
+            <h1>Projects That Bring Ideas to Life</h1>
 
-    <div class="project-card card">
-      <img src="images/ClaimsManagement.png" alt="Claims Management System preview">
-      <div class="project-content">
-        <h2>Claims Management System</h2>
-        <p class="project-meta">Web Technology · System Usability · Process Automation</p>
-        <p>Developed a claims management solution with a focus on usability, process flow, and feature enhancements to help users manage claims efficiently and accurately.</p>
-        <ul class="project-features">
-          <li>Improved claim tracking and reporting</li>
-          <li>User-friendly interface and navigation</li>
-          <li>System enhancements for reliability and speed</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
+            <p class="section-intro">
+                A selection of software development projects that
+                demonstrate my skills in application development,
+                database management, problem-solving and user-focused
+                design. Each project reflects my commitment to building
+                practical, maintainable and effective software solutions.
+            </p>
+        </div>
 
-<footer>© 2026 Kgotlelelo Digomo</footer>
+        <div class="projects-grid">
+
+            <!-- PROJECT 1: WECONNECT -->
+            <article class="project-card card">
+
+                <div class="project-image">
+                    <img
+                        src="images/WeConnect.png"
+                        alt="WeConnect platform interface preview"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        FULL-STACK WEB DEVELOPMENT
+                    </span>
+
+                    <h2>WeConnect Platform</h2>
+
+                    <p class="project-meta">
+                        PHP · SQL · JavaScript · HTML · CSS
+                    </p>
+
+                    <p>
+                        A web-based platform developed to support
+                        communication, user interaction and organised
+                        information management. The project demonstrates
+                        full-stack development principles and the
+                        integration of application logic with database
+                        operations.
+                    </p>
+
+                    <h3>Key Features &amp; Contributions</h3>
+
+                    <ul class="project-features">
+                        <li>Developed application functionality using PHP.</li>
+                        <li>Designed and queried database structures to manage application data.</li>
+                        <li>Implemented user-facing interfaces using HTML, CSS and JavaScript.</li>
+                        <li>Worked on authentication and access control where supported by the application.</li>
+                    </ul>
+
+                    <div class="project-tags">
+                        <span>Backend Development</span>
+                        <span>Database Management</span>
+                        <span>Web Design</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <a
+                            href="https://github.com/KgLelo/We_Connect"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-primary"
+                        >
+                            View Source Code
+                        </a>
+                    </div>
+
+                </div>
+            </article>
+
+
+            <!-- PROJECT 2: PORTFOLIO WEBSITE -->
+            <article class="project-card card">
+
+                <div class="project-image">
+                    <img
+                        src="images/Portfolio.png"
+                        alt="Kgotlelelo Digomo portfolio website preview"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        PERSONAL DEVELOPMENT PROJECT
+                    </span>
+
+                    <h2>Developer Portfolio</h2>
+
+                    <p class="project-meta">
+                        HTML5 · CSS3 · JavaScript · Git · GitHub Pages
+                    </p>
+
+                    <p>
+                        A personal portfolio website built to present
+                        my technical skills, development projects,
+                        education and professional experience in one
+                        accessible location. The website also serves
+                        as a practical demonstration of my front-end
+                        development skills.
+                    </p>
+
+                    <h3>Key Features &amp; Contributions</h3>
+
+                    <ul class="project-features">
+                        <li>Structured content across dedicated portfolio pages.</li>
+                        <li>Designed reusable layouts and navigation components.</li>
+                        <li>Organised project information for recruiters and potential employers.</li>
+                        <li>Published the website using GitHub Pages.</li>
+                    </ul>
+
+                    <div class="project-tags">
+                        <span>Responsive Web Design</span>
+                        <span>Version Control</span>
+                        <span>Deployment</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <a
+                            href="https://kglelo.github.io/portfolio1/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-primary"
+                        >
+                            View Live Website
+                        </a>
+
+                        <a
+                            href="https://github.com/KgLelo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-secondary"
+                        >
+                            GitHub Profile
+                        </a>
+                    </div>
+
+                </div>
+            </article>
+
+
+            <!-- PROJECT 3: CLAIMS MANAGEMENT -->
+            <article class="project-card card">
+
+                <div class="project-image">
+                    <img
+                        src="images/ClaimsManagement.png"
+                        alt="Claims management system interface preview"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        APPLICATION DEVELOPMENT
+                    </span>
+
+                    <h2>Claims Management System</h2>
+
+                    <p class="project-meta">
+                        Web Development · Database Operations · Troubleshooting
+                    </p>
+
+                    <p>
+                        A claims management application focused on
+                        supporting the organisation and tracking of
+                        claim-related information. The project
+                        demonstrates my interest in developing
+                        business-oriented applications that simplify
+                        workflows and improve information accessibility.
+                    </p>
+
+                    <h3>Key Features &amp; Contributions</h3>
+
+                    <ul class="project-features">
+                        <li>Worked on application functionality and interface usability.</li>
+                        <li>Focused on structured information management and claim tracking.</li>
+                        <li>Applied troubleshooting and debugging principles to application issues.</li>
+                        <li>Considered workflow improvements and maintainability.</li>
+                    </ul>
+
+                    <div class="project-tags">
+                        <span>Business Applications</span>
+                        <span>Problem-Solving</span>
+                        <span>Application Support</span>
+                    </div>
+
+                    <!-- Add your actual repository or demo link here. -->
+                    <div class="project-actions">
+                        <a
+                            href="https://github.com/KgLelo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-secondary"
+                        >
+                            Explore GitHub
+                        </a>
+                    </div>
+
+                </div>
+            </article>
+
+        </div>
+
+        <div class="projects-cta">
+            <h2>Interested in Working Together?</h2>
+
+            <p>
+                I'm interested in opportunities where I can apply my
+                software development skills, contribute to meaningful
+                projects and continue growing as a developer.
+            </p>
+
+            <div class="project-actions">
+                <a href="contact.html" class="btn btn-primary">
+                    Get in Touch
+                </a>
+
+                <a
+                    href="https://github.com/KgLelo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-secondary"
+                >
+                    Visit My GitHub
+                </a>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Kgotlelelo Digomo. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
+```
